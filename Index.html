@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Module 33 Solution</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  </head>
+<body>
+  <header><!-- Header Name -->
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img"></div>
+          </a>
+
+          <div class="navbar-brand">
+            <a href="index.html"><h1>Food, LLC</h1></a>
+            <p>
+              <img src="images/GFSI logo.png" alt="GFSI logo">
+              <span>Global Food Safety Initiative (GFSI) Certified</span>
+            </p>
+          </div>
+
+<!-- Button -->
+           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+       </div>
+
+       <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="Category-Chicken.html">
+                <img src="images/Chicken logo.png" alt="Chicken logo">
+                <span></span><br class="hidden-xs"> Chicken</a>
+            </li>
+
+            <li>
+              <a href="Category-Beef.html">
+                <img src="images/Beef logo.png" alt="Beef logo">
+                <span></span><br class="hidden-xs"> Beef</a>
+            </li>
+            <li>
+              <a href="Category-Sushi.html">
+                <img src="images/Sushi logo.png" alt="Sushi logo">
+                <span></span><br class="hidden-xs"> Sushi</a>
+            </li>
+
+            <li id="phone" class="hidden-xs">
+              <a href="123-456-7890">
+                <span>123-456-7890</span></a><div>* We Deliver</div>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+
+  <!-- Button -->
+
+  <div id="call-btn" class="visible-xs">
+    <a class="btn" href="tel:410-602-5008">
+    <span class="glyphicon glyphicon-earphone"></span>
+    123-456-7890
+    </a>
+  </div>
+  <div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
+
+
+<!---------Jumbotron------>
+
+  <div id="main-content" class="container">
+    <div class="jumbotron">
+      <img src="images/jumbotron-Food,LLC_768.jpg" alt="Chicken, Beef, Sushi" class="img-responsive visible-xs">
+    </div>
+
+<!----Chieckn, Beef, Sushi tiles----->
+
+
+  <div id="home-tiles" class="row">
+
+    <div class="col-md-4 col-sm-6 col-xs-12">
+      <a href="Category-Chicken.html"><div id="Chicken-tile"><span>Chicken</span></div></a>
+    </div>
+
+    <div class="col-md-4 col-sm-6 col-xs-12">
+      <a href="Category-Beef.html"><div id="Beef-tile"><span>Beef</span></div></a>
+    </div>
+    
+    <div class="col-md-4 col-sm-12 col-xs-12">
+      <a href="Category-Sushi.html"><div id="Sushi-tile"><span>Sushi</span></div></a>
+  
+  </div>
+
+</div><!-- End of #home-tiles -->
+</div><!-- End of #main-content -->
+
+  <!Footer------------->
+
+<footer class="panel-footer">
+  <div class="container">
+    <div class="row">
+      <section id="hours" class="col-sm-4">
+        <span>Hours:</span><br>
+          Sun-Thurs: 11:15am - 10:00pm<br>
+          Fri-Sat: 11:15am - 2:30pm<br>
+        <hr class="visible-xs">
+      </section>
+      <section id="address" class="col-sm-4">
+        <span>Address:</span><br>
+          1234 ABC Road<br>
+          Baltimore, MD 65432
+        <p>* Delivery area within 5-10 miles, with minimum order of $20 plus $5 charge for all deliveries.</p>
+        <hr class="visible-xs">
+      </section>
+      <section id="testimonials" class="col-sm-4">
+        <p>"I have to say, I enjoyed every single bite of the meal in Food, LLC. I had a 3 course meal, with a couple of beers. Considering the quality, the price is reasonable. Ideal for those who want a romantic night out. There was also plenty of room for bigger groups."</p>
+        <p>"We are so fortunate to have this place just a few minutes drive away from home. Food is stunning, both the tapas and downstairs restaurant. Cocktails wow, wine great and lovely selection of beers. Love this place and will continue to visit."</p>
+      </section>
+    </div>
+    <div class="text-center">&copy; Copyright Food, LLC 2022</div>
+  </div>
+</footer>
+
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
